@@ -7,7 +7,7 @@ contract Params {
     address
         public constant ValidatorContractAddr = 0x000000000000000000000000000000000000c000;
     address
-        public constant PunishContractAddr = 0x000000000000000000000000000000000000c001;
+        public constant PunishContractAddr = 0x000000000000000000000000000000000000C001;
     address
         public constant ProposalAddr = 0x000000000000000000000000000000000000c002;
 
