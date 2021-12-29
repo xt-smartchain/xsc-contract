@@ -1,0 +1,33 @@
+{
+  "name": "xsc-contracts",
+  "version": "1.0.0",
+  "description": "xt smartchain system contracts",
+  "main": "generate-contracts.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "hardhat-tracer": "^1.0.0-alpha.6",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-solpp": "^2.0.0",
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "hardhat": "^2.8.0",
+    "hardhat-contract-sizer": "^2.0.3",
+    "mocha": "^8.4.0",
+    "solpp": "^0.11.5",
+    "truffle-assertions": "^0.9.2",
+    "web3": "^1.3.6"
+  },
+  "scripts": {
+    "test": "NET=devnet yarn run hardhat test test/v1/*",
+    "clean": "yarn run hardhat clean",
+    "compile": "NET=mainnet yarn run hardhat compile",
+    "size": "yarn run hardhat size-contracts"
+  },
+  "author": "",
+  "license": "ISC"
+}
